@@ -4,6 +4,10 @@ specVersion: "2.5"
 metadata:
   name: RunwaysRoadways.zrunwaysroadways
 type: application
+resources:
+ configuration:
+   paths:
+     webapp: dist
 server:
   customMiddleware:
     - name: fiori-tools-proxy
